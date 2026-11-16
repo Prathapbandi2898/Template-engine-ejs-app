@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Template Engine EJS App
 
 A server-rendered product CRUD application built with Express, EJS, and MongoDB using Mongoose.
@@ -59,3 +60,6 @@ A server-rendered product CRUD application built with Express, EJS, and MongoDB 
 | `GET` | `/delete-product/:id` | Delete a product |
 
 Products have a required `name`, `category`, and `price`; `description` is optional.
+=======
+# Template-engine-ejs-app
+>>>>>>> 208198ab721b1b7bbed48fe3d51dc395f99b334e
