@@ -8,7 +8,9 @@ const connectDB = async (mongoURI, dbName) => {
     console.log(`MongoDB connected to database: ${dbName}`);
   } catch (error) {
     console.error("MongoDB connection failed:", error.message);
-    process.exit(1);
+    if (!process.env.VERCEL) {
+      process.exit(1);
+    }
   }
 };
 
